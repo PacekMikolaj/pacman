@@ -737,8 +737,7 @@ class Generator {
             this.todo.remove();
             this.hide.remove();
             this.rightClick_flag = false;
-
-
+            console.log("log");
         })
 
         this.hide = document.createElement("div");
@@ -762,7 +761,6 @@ class Generator {
             friend.style.backgroundColor = "black";
 
         }
-
 
     }
 
